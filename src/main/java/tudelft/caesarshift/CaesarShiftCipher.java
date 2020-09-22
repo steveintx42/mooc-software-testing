@@ -11,7 +11,7 @@ public class CaesarShiftCipher {
 
         for(int i = 0; i < length; i++){
             currentChar = message.charAt(i);
-           
+            /* text added comment by sbmiller in texas 2020-09-22 the equinox */
             sb.append(currentChar);
             if (currentChar > 'z' || currentChar < 'a') {
                 return "invalid";
